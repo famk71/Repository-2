@@ -69,9 +69,11 @@ public class day1 {
 
 
 	@AfterTest
-	public void closeBrowser(){
+	public void closeBrowser() throws InterruptedException{
+		Thread.sleep(1000);
 	driver.close();
 	//CLose
+	
 	}
 }
 
