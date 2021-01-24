@@ -73,7 +73,7 @@ public class day1 {
 		Thread.sleep(1000);
 	driver.close();
 	//CLose
-	//More close
+	
 	
 	}
 }
