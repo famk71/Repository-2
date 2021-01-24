@@ -71,6 +71,7 @@ public class day1 {
 	@AfterTest
 	public void closeBrowser(){
 	driver.close();
+	//CLose
 	}
 }
 
